@@ -12,7 +12,11 @@ AMラジオで音楽を聞くことができます。
 
 ## DEMO
 
-準備中
+解説動画を Youtube で公開しました。  
+
+[RP2040RadioStation:Tinygo+RP2040で，AMラジオを鳴らす。](https://youtu.be/EvfH8MqYdDI)
+
+デモには、Raspberry Pi Pico と同じRP2040チップを搭載したマイコンボード[RP2040-Zero](https://www.waveshare.com/wiki/RP2040-Zero)で作られたマイクロパッド[zero-kb02](https://github.com/sago35/tinygo_keeb_workshop_2024/blob/main/buildguide.md) を使用しています。  
 
 ## Features
 
@@ -69,7 +73,7 @@ cd AMtransmitter
 ```bash
 > tree /a /f ./uf2
 +---effects
-|       CTUringtone
+|       CTUringtone.uf2
 |       Jihou.uf2
 |       PiPo.uf2
 |       ThiroriSound.uf2
@@ -229,8 +233,8 @@ var Repetitions int = 5
 3. 楽譜データ  
 
 NewMusic/NewMusic.go 内のNotes配列に、楽譜データを書き込んで下さい。  
-音階、音長の2つを1組として書き込んでいきます。休符は、Rです。  
-音階、音長の定義は、note.goを参照ください。  
+音名と音長の2つを1組として書き込んでいきます。休符は、Rです。  
+音名、音長の定義は、note.goを参照ください。  
 
 ```bash
 // 楽譜データ
