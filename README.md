@@ -14,6 +14,10 @@ AMラジオで音楽を聞くことができます。
 
 解説動画を Youtube で公開しました。  
 
+以下は、RP2040で999KHzの電波を送信し、AMラジオで受信しているデモです。  
+
+[![デモ動画](./photo/movie_thumbnail.jpg)](https://youtu.be/EvfH8MqYdDI)  
+
 [RP2040RadioStation:Tinygo+RP2040で，AMラジオを鳴らす。](https://youtu.be/EvfH8MqYdDI)
 
 デモには、Raspberry Pi Pico と同じRP2040チップを搭載したマイコンボード[RP2040-Zero](https://www.waveshare.com/wiki/RP2040-Zero)で作られたマイクロパッド[zero-kb02](https://github.com/sago35/tinygo_keeb_workshop_2024/blob/main/buildguide.md) を使用しています。  
